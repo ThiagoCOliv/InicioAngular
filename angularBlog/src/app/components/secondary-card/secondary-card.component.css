@@ -1,0 +1,27 @@
+.secondary-card{
+    border: 1px solid aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    width: 80vw;
+    height: 25vh;
+    margin: 10px;
+}
+
+.secondary-card img{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+
+.secondary-card .conteudoPost{
+    margin: 15px;
+}
+
+.secondary-card .conteudoPost h1{
+    transition: 0.3s ease-in-out;
+}
+
+.secondary-card .conteudoPost h1:hover{
+    color: aqua;
+    cursor: pointer;
+}

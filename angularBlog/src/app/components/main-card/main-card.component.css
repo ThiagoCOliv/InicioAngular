@@ -1,0 +1,31 @@
+.main-card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 80vw;
+    margin: 30px auto;
+}
+
+.title-card{
+    height: 100%;
+    padding: 70px;
+    background: linear-gradient(to right ,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.title-card h1, .title-card h3{
+    background-color: transparent;
+}
+
+.title-card h1{
+    font-size: 60px;
+    transition: 0.3s ease-in-out;
+}
+
+.title-card h1:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.title-card h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
